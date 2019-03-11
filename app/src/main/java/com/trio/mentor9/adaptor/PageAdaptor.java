@@ -1,9 +1,6 @@
 package com.trio.mentor9.adaptor;
 
-import java.util.ArrayList;
-
-import com.trio.mentor9.Constant;
-import com.trio.mentor9.adaptor.GetValues;
+import com.trio.mentor9.common.Constant;
 import com.trio.mentor9.frag.FragEngText;
 import com.trio.mentor9.frag.FragFacts;
 import com.trio.mentor9.frag.FragImage;

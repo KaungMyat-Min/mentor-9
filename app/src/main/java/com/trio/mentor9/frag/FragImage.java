@@ -5,7 +5,7 @@ import java.io.InputStream;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.trio.mentor9.Constant;
+import com.trio.mentor9.common.Constant;
 import com.trio.mentor9.adaptor.GetValues;
 import com.trio.mentor9.R;
 

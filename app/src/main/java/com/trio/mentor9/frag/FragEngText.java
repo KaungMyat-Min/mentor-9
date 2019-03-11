@@ -2,7 +2,7 @@ package com.trio.mentor9.frag;
 
 import java.util.Locale;
 
-import com.trio.mentor9.Constant;
+import com.trio.mentor9.common.Constant;
 import com.trio.mentor9.R;
 import com.trio.mentor9.adaptor.GetValues;
 import com.trio.mentor9.adaptor.ListParagraphAdaptor;
@@ -14,19 +14,14 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.content.res.Resources;
 import android.graphics.Color;
-import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
-import android.view.ActionMode;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.ListView;
 import android.widget.ScrollView;
 import android.widget.TextView;

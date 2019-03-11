@@ -1,6 +1,6 @@
 package com.trio.mentor9.frag;
 
-import com.trio.mentor9.Constant;
+import com.trio.mentor9.common.Constant;
 import com.trio.mentor9.R;
 
 import android.content.Context;

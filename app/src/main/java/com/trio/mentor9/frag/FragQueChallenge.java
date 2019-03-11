@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 
-import com.trio.mentor9.Constant;
+import com.trio.mentor9.common.Constant;
 import com.trio.mentor9.adaptor.AnsTheQuestionDbAdaptor;
 import com.trio.mentor9.adaptor.GrammarDbAdaptor;
 import com.trio.mentor9.adaptor.UserDataDbAdaptor;

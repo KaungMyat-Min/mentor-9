@@ -2,21 +2,14 @@ package com.trio.mentor9.frag;
 
 import java.util.ArrayList;
 
-import com.trio.mentor9.Constant;
+import com.trio.mentor9.common.Constant;
 import com.trio.mentor9.adaptor.AnsTheQuestionDbAdaptor;
-import com.trio.mentor9.adaptor.DataBaseHelper;
 import com.trio.mentor9.adaptor.ListShowAdaptor;
-import com.trio.mentor9.adaptor.NavDrawerAdaptor;
 import com.trio.mentor9.R;
 import com.trio.mentor9.model.Question;
-import com.trio.mentor9.R;
 
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
