@@ -1,0 +1,42 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:actionBarStyle">@style/myCustomActionBar</item>
+        <item name="android:actionMenuTextColor">@color/action_mode_text_color</item>
+        <!-- for supported library -->
+
+        <item name="actionBarStyle">@style/myCustomActionBar</item>
+        <item name="actionMenuTextColor">@color/action_mode_text_color</item>
+    </style>
+
+    <style name="myCustomActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="android:background">@drawable/action_bar_background</item>
+        <item name="android:titleTextStyle">@style/CustomTextStyle</item>
+        <!-- for supported library -->
+        <item name="background">@drawable/action_bar_background</item>
+        <item name="titleTextStyle">@style/CustomTextStyle</item>
+    </style>
+
+    <style name="CustomTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/action_bar_text_color</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">0.6</item>
+    </style>
+
+</resources>

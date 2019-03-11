@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/che_show_true_or_false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#550000"
+        android:gravity="center_horizontal"
+        android:text="အေျဖမွန္တယ္"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/che_no_of_que"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/che_show_true_or_false"
+        android:paddingTop="7dp"
+        android:text="@string/hello_world"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/che_attempt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/che_show_true_or_false"
+        android:paddingTop="7dp"
+        android:text="@string/hello_world"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/che_question_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/che_no_of_que"
+        android:paddingLeft="@dimen/chel_text_padding_left"
+        android:paddingRight="@dimen/chel_text_padding_right"
+        android:paddingTop="@dimen/chel_text_padding_top"
+        android:text="@string/hello_world"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/che_ans_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/che_question_text"
+        android:paddingLeft="@dimen/chel_text_padding_left"
+        android:paddingRight="@dimen/chel_text_padding_right"
+        android:paddingTop="@dimen/chel_text_padding_top"
+        android:text="@string/hello_world"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:id="@+id/eng_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/che_ans_show" >
+
+        <TextView
+            android:id="@+id/che_ans_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/chel_text_padding_left"
+            android:paddingRight="@dimen/chel_text_padding_right"
+            android:paddingTop="@dimen/chel_text_padding_top"
+            android:text="@string/hello_world"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+    </ScrollView>
+    <!--
+         <TextView
+        android:id="@+id/ans3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ans2"
+        android:paddingLeft="@dimen/home_text_padding_left"
+        android:text="@string/hello_world" />
+    -->
+
+    <Button
+        android:id="@+id/che_previous_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="အရင္ေမးခြန္း"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/che_button_false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="False"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/che_next_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="ေနာက္ေမးခြန္း" />
+
+    <Button
+        android:id="@+id/che_button_true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="True"
+        android:visibility="invisible" />
+
+</RelativeLayout>

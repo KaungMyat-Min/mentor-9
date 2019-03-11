@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:entries="@array/pref_quote_select"
+        android:entryValues="@array/pref_quote_select_value"
+        android:key="@string/pref_quote_type_key"
+        android:summary="@string/pref_quote_select_summary"
+        android:title="@string/pref_quote_select_title" />
+
+    <PreferenceScreen
+        android:summary="setting associating Englist Text"
+        android:title="English Text" >
+        <PreferenceCategory android:title="English TexT" >
+            <ListPreference
+                android:entries="@array/pref_eng_font_type"
+                android:entryValues="@array/pref_eng_font_type_value"
+                android:key="@string/pref_eng_font_type_key"
+                android:summary="Choose displaying font for english text"
+                android:title="@string/pref_eng_font_type_title" />
+            <ListPreference
+                android:entries="@array/pref_eng_font_size"
+                android:entryValues="@array/pref_eng_font_size_value"
+                android:key="@string/pref_eng_font_size_key"
+                android:summary="Choose the default font size"
+                android:title="@string/pref_eng_font_size_title" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:summary="setting associating Myanmar Text"
+        android:title="Myanmar Text" >
+        <PreferenceCategory android:title="Myanmar TexT" >
+            <ListPreference
+                android:defaultValue="0"
+                android:entries="@array/pref_mm_font_type"
+                android:entryValues="@array/pref_mm_font_type_value"
+                android:key="@string/pref_mm_font_type_key"
+                android:summary="Choose displaying font for Myanmar text"
+                android:title="@string/pref_mm_font_type_title" />
+            <ListPreference
+                android:entries="@array/pref_mm_font_size"
+                android:entryValues="@array/pref_mm_font_size_value"
+                android:key="@string/pref_mm_font_size_key"
+                android:summary="Choose the default font size"
+                android:title="@string/pref_mm_font_size_title" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+</PreferenceScreen>

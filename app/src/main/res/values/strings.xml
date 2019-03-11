@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mentor9</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- extra string -->
+    <string name="drawer_open">Slider Menu Open</string>
+    <string name="drawer_close">Slider Menu Close</string>
+
+    <!-- content description -->
+    <string name="desc_list_string_icon">string icon</string>
+   
+    <!-- home activity -->
+    <string name="read_paragraph">စာပိုဒ္ဖတ္မယ္</string>
+    <string name="read_question_n_answer">အေမးအေျဖ ၾကည့္မယ္</string>
+    <string name="challenge_ques_n_ans">အေမးအေျဖ ေျဖမယ္</string>
+    <string name="read_grammar">grammar ဖတ္မယ္</string>
+    <string name="challenge_grammar">grammar ေျဖမယ္</string>
+    <string-array name="array_home">
+        <item>စာပိုဒ္ဖတ္မယ္</item>
+        <item>အေမးအေျဖ ၾကည့္မယ္</item>
+        <item>အေမးအေျဖ ေျဖမယ္</item>
+        <item>grammar ဖတ္မယ္</item>
+        <item>grammar ေျဖမယ္</item>
+    </string-array>
+
+<!-- ..........dialog.............. -->
+<string name="dialog_title_add_user">Add User</string>
+<string name="dialog_title_change_user">Change User</string>
+<string name="dialog_hint">ေျဖမည့္သူအမည္</string>
+</resources>

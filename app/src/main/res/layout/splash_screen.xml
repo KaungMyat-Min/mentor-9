@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background_2" >
+
+    <ImageView
+        android:id="@+id/splash_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+         />
+
+    <TextView
+        android:id="@+id/splash_text_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="start"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:textSize="20sp"
+        android:textColor="#390d42"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/splash_text_body_mm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#390d42"
+        android:gravity="start"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/splash_text_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/splash_text_body"
+        android:gravity="end"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="25dp"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <!--
+         <Button
+        android:id="@+id/splash_button_ask_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/splash_button_background"
+        android:gravity="center"
+        android:text="light and Funny"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:visibility="gone" />
+    -->
+
+    <Button
+        android:id="@+id/splash_button_ask_heavy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="ေလးေလးနက္နက္"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/splash_button_ask_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/splash_button_ask_heavy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="ေပါ့ေပါ့ပါးပါး"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/splash_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="let\&apos;s go"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:visibility="invisible" />
+    
+      <Button
+        android:id="@+id/splash_button_translate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="To Eng"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp" />
+   
+    <ProgressBar
+        android:id="@+id/progressBar_inserting"
+        style="?android:attr/progressBarStyleLarge"
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.trio.mentor9.customview.CustomTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_eng_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:scrollbars="vertical"
+    android:textColor="#000000"
+    android:textIsSelectable="true"
+    android:textSize="20sp"
+    android:background="@color/item_eng_text_background_color"
+    android:gravity="top"
+    android:layout_gravity="top" >
+
+</com.trio.mentor9.customview.CustomTextView>

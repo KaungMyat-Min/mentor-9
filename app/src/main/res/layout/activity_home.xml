@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/list_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--
+    <TextView
+        android:id="@+id/to_read_paragraph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/home_text_padding"
+        android:paddingLeft="@dimen/home_text_padding_left"
+        android:text="@string/read_paragraph"
+        android:textSize="@dimen/home_text_size" />
+
+    <TextView
+        android:id="@+id/to_read_ques_n_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/home_text_padding"
+        android:paddingLeft="@dimen/home_text_padding_left"
+        android:text="@string/read_question_n_answer"
+        android:textSize="@dimen/home_text_size" />
+
+    <TextView
+        android:id="@+id/to_challenge_q_n_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/home_text_padding"
+        android:paddingLeft="@dimen/home_text_padding_left"
+        android:text="@string/challenge_ques_n_ans"
+        android:textSize="@dimen/home_text_size" />
+
+    <TextView
+        android:id="@+id/to_read_grammar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/home_text_padding"
+        android:paddingLeft="@dimen/home_text_padding_left"
+        android:text="@string/read_grammar"
+        android:textSize="@dimen/home_text_size" />
+
+    <TextView
+        android:id="@+id/to_challenge_grammar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/home_text_padding"
+        android:paddingLeft="@dimen/home_text_padding_left"
+        android:text="@string/challenge_grammar"
+        android:textSize="@dimen/home_text_size" />
+    -->
+
+</LinearLayout>

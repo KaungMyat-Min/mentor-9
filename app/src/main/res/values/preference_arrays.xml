@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Quote setting -->
+    <string name="pref_quote_select_title">Quote</string>
+    <string name="pref_quote_type_key">quoteTypeToDisplay</string>
+    <string name="pref_quote_select_summary">Select type of quote you want to read.</string>
+
+    <string-array name="pref_quote_select">
+        <item>Modern and Lovely</item>
+        <item>Smart and meaningful</item>
+    </string-array>
+    
+    <string-array name="pref_quote_select_value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+   
+  <!--   <integer-array name="pref_quote_select_value">
+        <item>1</item>
+        <item>2</item>
+    </integer-array> -->
+    <!-- english text setting -->
+    <string name="pref_eng_font_type_title">Font</string>
+    <string name="pref_eng_font_type_key">prefEngFontTypeKey</string>
+
+    <string-array name="pref_eng_font_type">
+        <item>Use App\'s font</item>
+        <item>Use phone\'s default font</item>
+    </string-array>
+    <string-array name="pref_eng_font_type_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="pref_eng_font_size_title">Font size</string>
+    <string name="pref_eng_font_size_key">pref_eng_font_size_key</string>
+
+    <string-array name="pref_eng_font_size">
+        <item>small</item>
+        <item>normal</item>
+        <item>large</item>
+    </string-array>
+    <string-array name="pref_eng_font_size_value">
+        <item>12</item>
+        <item>16</item>
+        <item>22</item>
+    </string-array>
+
+    <!-- myanmar text setting -->
+    <string name="pref_mm_font_type_title">Font</string>
+    <string name="pref_mm_font_type_key">prefmmFontTypeKey</string>
+
+    <string-array name="pref_mm_font_type">
+        <item>Use App\'s font</item>
+        <item>Use phone\'s default font</item>
+    </string-array>
+    <string-array name="pref_mm_font_type_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="pref_mm_font_size_title">Font size</string>
+    <string name="pref_mm_font_size_key">pref_mm_font_size_key</string>
+
+    <string-array name="pref_mm_font_size">
+        <item>small</item>
+        <item>normal</item>
+        <item>large</item>
+    </string-array>
+    <string-array name="pref_mm_font_size_value">
+        <item>12</item>
+        <item>14</item>
+        <item>17</item>
+    </string-array>
+
+</resources>

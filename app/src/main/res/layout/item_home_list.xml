@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_home_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/home_text_padding"
+    android:paddingLeft="@dimen/home_text_padding_left"
+    android:paddingRight="@dimen/home_text_padding"
+    android:paddingTop="@dimen/home_text_padding"
+    android:textColor="@color/brown"
+    android:textSize="@dimen/home_text_size" >
+
+</TextView>

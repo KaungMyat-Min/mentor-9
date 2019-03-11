@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="brown">#644308</color>
+<color name="dark_brown">#644328</color>
+
+    <color name="list_divider">#000000</color>
+    <color name="list_background">#ffffff</color>
+    <color name="list_background_press">#99d9ea</color>
+    <!-- fabcolors -->
+    <color name="fab_press">#90CAF9</color>
+    <color name="fab_normal">#03A9F4</color>
+
+    <!-- <color name="counter_text_bg">#f2f2f2</color> -->
+    <color name="list_item_unit_title">#204819</color>
+    <color name="text_color">#000000</color>
+    <!-- color for slide menu fdfcdd  f3f3cb -->
+    <color name="slidemenu_background_main">#fdfcdd</color>
+    <color name="slidemenu_list_background">#fdfcdd</color>
+    <color name="main_background_color">#d7d7d7</color>
+
+    <!-- Buttom next and previous background -->
+    <color name="image_frag_buttom_background">#69fbfccf</color>
+
+    <!-- Action bar -->
+    <color name="action_bar_text_color">#ffffff</color>
+    <color name="action_mode_text_color">#5f5f5f</color>
+    <color name="action_bar_bg_start_color">#308332</color>
+    <color name="action_bar_bg_end_color">#4ead32</color>
+
+    <!-- splash -->
+    <color name="splash_but_bg_start_color">#5af73030</color>
+    <color name="splash_but_bg_end_color">#5a7d0715</color>
+    
+
+    <!-- swipe view -->
+    <color name="pager_title_strip_bg">#a5d58e</color>
+    <color name="pager_title_text_color">#ffffff</color>
+    <!-- eng & mm fragment -->
+    <color name="text_background">#e6e6e6</color>
+    
+    <!-- ..............facts............... -->
+    <color name="facts_title_bg">#f5b876</color>
+
+    
+    
+    <!-- question chellence  -->
+    <color name="que_chel_result_background_right">#06bb65</color>
+    <color name="que_chel_result_background_wrong">#804267</color>
+    
+    <!-- strange facts  -->
+    <color name="strange_facts_header_bg">#ff9f60</color>
+    <color name="strange_facts_body_bg">#fbe5d7</color>
+    <color name="strange_facts_body_text_color">#94580b</color>
+    
+    <color name="item_eng_text_background_color">#e6e6e6</color>
+    
+    
+    <!-- button_white -->
+<color name="button_white_press">#c3c3c3</color>
+<color name="button_white_normal">#ffffff</color>    
+<dimen name="button_white_corner_radius">4dp</dimen>
+<dimen name="button_white_layer_paddint">3dp</dimen>
+</resources>

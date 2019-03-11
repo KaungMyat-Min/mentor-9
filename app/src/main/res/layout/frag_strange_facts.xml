@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/strange_fact_title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#ff9f60"
+        android:padding="@dimen/home_text_padding"
+        android:text="Have you known?"
+        android:textColor="#000000"
+        android:textSize="@dimen/home_text_size" />
+
+    <ScrollView
+        android:id="@+id/eng_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/strange_fact_title_text_view"
+        android:background="#d7d7d7"
+        android:fillViewport="true"
+        >
+
+        <TextView
+            android:id="@+id/strange_fact_body_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:text="Yes i know."
+            android:textColor="#1b2d13"
+            android:textSize="23sp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/fact_previous"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/button_background"
+        android:text="အရင္တစ္ခု"
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/fact_next"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/button_background"
+        android:text="ေနာက္တစ္ခု"
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+</RelativeLayout>
