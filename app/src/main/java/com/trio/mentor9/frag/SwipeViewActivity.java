@@ -69,7 +69,6 @@ public class SwipeViewActivity extends Fragment {
     private Activity activity;
 
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -79,7 +78,7 @@ public class SwipeViewActivity extends Fragment {
         userChoice = bundle.getInt(Constant.USER_CHOICE);
         context = getActivity();
         activity = getActivity();
-
+        paragraphs = new ArrayList<>();
 
         View v = inflater.inflate(R.layout.swipe_view_activity, container,
                 false);

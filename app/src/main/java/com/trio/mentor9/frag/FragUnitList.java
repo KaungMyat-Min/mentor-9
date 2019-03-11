@@ -27,7 +27,7 @@ public class FragUnitList extends Fragment {
 
     private ArrayList<String> ItemList;
 
-    //private String user;
+
     private TextView action_bar_title_text_view;
     private ListView slidemenu;
     private ListView listViewToShow;
@@ -48,14 +48,8 @@ public class FragUnitList extends Fragment {
     private Activity activity;
 
 
-    /*private int but_ok_check;
-
-    private final String KEY_CURRENT_USER = "curent_user";
-
-    private final String UNIT_LIST_TO_SWIPE = "unit_list_to_swipe";
-*/
     public FragUnitList() {
-        ItemList = new ArrayList<String>();
+        ItemList = new ArrayList<>();
 
     }
 
@@ -150,12 +144,6 @@ public class FragUnitList extends Fragment {
         return titles[userChoice];
     }
 
-    /*
-     * private void removeActionBarTabs() { ActionBar mActionBar =
-     * ((ActionBarActivity) getActivity()) .getSupportActionBar();
-     *
-     * mActionBar.invalidateOptionsMenu(); }
-     */
     private final int DIFFERENCE = 1284;
 
 
