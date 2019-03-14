@@ -6,6 +6,8 @@ import com.trio.mentor9.common.dependencyinjection.application.ApplicationCompon
 import com.trio.mentor9.common.dependencyinjection.application.ApplicationModule;
 import com.trio.mentor9.common.dependencyinjection.application.DaggerApplicationComponent;
 
+import io.realm.Realm;
+
 public class MyApplication extends Application {
     private ApplicationComponent mApplicationComponent;
 
@@ -16,6 +18,7 @@ public class MyApplication extends Application {
                 .applicationModule(new ApplicationModule(this))
                 .build();
 
+        Realm.init(this);
     }
 
     public ApplicationComponent getApplicationComponent() {
